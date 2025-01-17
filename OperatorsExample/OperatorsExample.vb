@@ -38,6 +38,11 @@ Module OperatorsExample
         Console.Write("5 mod 3 = ") 'print a string
         Console.WriteLine(5 Mod 3) 'print the remainder
         Console.WriteLine()
+
+        'exponent operator
+        Console.Write("5 ^ 3 = ") 'print a string
+        Console.WriteLine(5 ^ 3) 'print the exponent
+        Console.WriteLine()
     End Sub
 
 End Module
