@@ -28,6 +28,16 @@ Module OperatorsExample
         Console.Write("5 / 3 = ") 'print a string
         Console.WriteLine(5 / 3) 'print the quotient
         Console.WriteLine()
+
+        'integer division operator
+        Console.Write("5 \ 3 = ") 'print a string
+        Console.WriteLine(5 \ 3) 'print the quotient
+        Console.WriteLine()
+
+        'modulus operator
+        Console.Write("5 mod 3 = ") 'print a string
+        Console.WriteLine(5 Mod 3) 'print the remainder
+        Console.WriteLine()
     End Sub
 
 End Module
